@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px dotted darkblue;
+        }
+        .boy{
+            position: relative;
+        left: 50px;
+    top:-30px
+    }
+    .ring{
+        position:absolute;
+        top:40px;
+        left: 100px;
+}
+/* .swim{
+    position: relative;
+    border: 1px solid blue;
+} */
+ .swim{
+    /* position: sticky;
+    top: 0px; */
+    position: fixed;
+    top: 200px;
+    left: 50px;
+ }
+    </style>
+</head>
+<body>
+    <h3>css position</h3>
+    <ol>
+        <li>static</li>
+        <li>relative</li>
+        <li>absolute</li>
+        <li>Fixed</li>
+        <li>sticky</li>
+    </ol>
+    <div class="swim-container">
+        <div class="box boy">
+            <img src="images/boy.jpg" alt="">
+        </div>
+        <div class="box water">
+            <img src="images/water.png" alt="">
+        </div>
+        <div class="box ring">
+            <img src="images/ring.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
